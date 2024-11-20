@@ -42,6 +42,6 @@ def get_iris(
 
     # Make predictions
     predictions = model.predict(data_predict_transf)
-#    return [(sepal_length+sepal_width+petal_length+petal_width)/4]
+    return [(sepal_length+sepal_width+petal_length+petal_width)/4]
 
-    return predictions.tolist()
+    #return predictions.tolist()
